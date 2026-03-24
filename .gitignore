@@ -13,3 +13,5 @@ build/
 service-account-key.json
 *.json.key
 .langgraph/
+
+.langgraph_api/
