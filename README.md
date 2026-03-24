@@ -48,16 +48,9 @@ The conditional edge at RL-2 is visible as two explicit branches -- `rl3` (ROUTI
 
 ---
 
-## Graph Structure
+## Architecture
 
-```
-rl1 -> rl2 -> [conditional edge]
-                 |-> rl3          (ROUTINE / URGENT)
-                 |-> rl3_emergent (EMERGENT)
-               -> rl4 -> rl5 -> rl6 -> END
-```
-
----
+![LangGraph Referral Letter Agent -- StateGraph architecture](docs/architecture_langgraph.svg)
 
 ## GCP Infrastructure
 
